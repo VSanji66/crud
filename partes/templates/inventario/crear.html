@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block titulo %} Agregar nueva parte {% endblock %}
+
+{% block contenido %}
+
+<div class="card">
+    <div class="card-header">
+        Crear un registro parte
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos de la parte</h4>
+        
+        {% include 'inventario/form.html' %}
+
+    </div>
+    <div class="card-footer text-muted">
+        Footer
+    </div>
+</div>
+
+{% endblock %}
